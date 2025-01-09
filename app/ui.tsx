@@ -13,7 +13,12 @@ export default function UI() {
         icon={<i className="fas fa-search" />}
       />
 
-      <Todo id={1} value={"New TODO"} completed={true} />
+      <Todo />
+
+      <Button>
+        <i className="fas fa-plus mr-2" />
+        Add TODO
+      </Button>
     </div>
   );
 }
